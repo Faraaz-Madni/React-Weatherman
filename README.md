@@ -1,4 +1,13 @@
-This is a React+NextJS Weather App project bootstrapped with Create-Next-App.
+This is a React+NextJS Weather App project.
+
+**TO DO**
+1. Implement Weather API from https://www.weatherapi.com/
+2. Fetch and receive data from API.
+3. Display weather data based on location entered via input.
+4. Get location of user via the browser.
+5. Use stateful components to make it a SPA (for now.)
+6. Implement Tailwind CSS and optimize it for Mobile.
+7. -- Add a Backend --
 
 ## Getting Started
 
