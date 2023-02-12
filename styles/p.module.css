@@ -1,0 +1,21 @@
+.normal{
+    font-family: monospace;
+    font-size: 2em;
+    
+}
+
+.distanced{
+    margin:1%;
+    letter-spacing: 2px;
+    display:inline-block;
+    animation: cursor-blink 1s steps(1, end) infinite;
+
+}
+
+
+/* Animations */
+@keyframes cursor-blink {
+    50%    { border-right: 10px solid black;}
+    10%     { border-right: 0px; }
+}
+

@@ -1,0 +1,22 @@
+.location{
+    border-radius: 10px;
+    border: 2px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2%;
+    font-size: large;
+}
+
+.submit{
+    border-radius: 2px;
+    background-color: antiquewhite;
+    box-shadow: 0px;
+    transition: 1s;
+    padding: 1.5%;
+    width: 50%;
+}
+
+.submit:hover{
+    box-shadow: 10px 10px blue;
+    transition: 1s;
+
+}

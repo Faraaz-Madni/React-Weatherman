@@ -1,0 +1,21 @@
+.title{
+    margin: auto;
+    width: 50%;
+    color: white;
+    text-align: center;
+    border-radius: 50px;
+    animation: background-rotate 2s infinite;
+    background-image: conic-gradient(black, blue, red,black, blue, red,black, blue, red,black, blue, red,black, blue, red);
+    transition: 2s;
+}
+
+.title:hover{
+    width: 100%;
+    transition: 2s;
+}
+
+
+/* Animations */
+@keyframes background-rotate {
+    50%     {background-blend-mode:difference};
+}
